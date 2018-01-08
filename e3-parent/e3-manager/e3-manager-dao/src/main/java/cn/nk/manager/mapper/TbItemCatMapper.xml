@@ -102,7 +102,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="cn.nk.manager.pocn.nkt" >
+  <insert id="insert" parameterType="cn.nk.manager.po.TbItemCat" >
     insert into tb_item_cat (id, parent_id, name, 
       status, sort_order, is_parent, 
       created, updated)

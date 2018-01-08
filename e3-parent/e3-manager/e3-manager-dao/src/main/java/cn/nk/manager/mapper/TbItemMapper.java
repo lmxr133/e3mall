@@ -4,7 +4,9 @@ import cn.nk.manager.po.TbItem;
 import cn.nk.manager.po.TbItemExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface TbItemMapper {
     int countByExample(TbItemExample example);
 

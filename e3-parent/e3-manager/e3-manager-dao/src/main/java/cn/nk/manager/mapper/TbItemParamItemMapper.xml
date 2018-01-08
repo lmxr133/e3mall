@@ -7,7 +7,7 @@
     <result column="created" property="created" jdbcType="TIMESTAMP" />
     <result column="updated" property="updated" jdbcType="TIMESTAMP" />
   </resultMap>
-  <resultMap id="ResultMapWithBLOBs" type="cn.nk.manager.TbItemParamItem" extends="BaseResultMap" >
+  <resultMap id="ResultMapWithBLOBs" type="cn.nk.manager.po.TbItemParamItem" extends="BaseResultMap" >
     <result column="param_data" property="paramData" jdbcType="LONGVARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >

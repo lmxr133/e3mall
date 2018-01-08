@@ -13,7 +13,7 @@
     <result column="created" property="created" jdbcType="TIMESTAMP" />
     <result column="updated" property="updated" jdbcType="TIMESTAMP" />
   </resultMap>
-  <resultMap id="ResultMapWithBLOBs" type="cn.nk.manager.mapper.TbContent" extends="BaseResultMap" >
+  <resultMap id="ResultMapWithBLOBs" type="cn.nk.manager.po.TbContent" extends="BaseResultMap" >
     <result column="content" property="content" jdbcType="LONGVARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
